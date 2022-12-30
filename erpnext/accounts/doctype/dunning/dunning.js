@@ -57,7 +57,7 @@ frappe.ui.form.on("Dunning", {
 				frappe.set_route("query-report", "General Ledger");
 			}, __('View'));
 		}
-	},
+	}, //how are you?
 	overdue_days: function (frm) {
 		frappe.db.get_value(
 			"Dunning Type",
